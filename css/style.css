@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 500;
+    overflow-x: hidden;
+    color: #48555B;
+    box-sizing: border-box;
+
+}
+h1,h2,h3{
+    margin: 0;
+}
+h2 {
+    font-size: 18px;
+    line-height: 1.38;
+    font-weight: 700;
+    letter-spacing: 2.30625px;
+}
+ul{
+    list-style: none;
+}
+
+.page-header {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1438px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.page-header_promo {
+    background-image: url("../img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 755px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    justify-content: space-between;
+    padding-top: 27px;
+}
+
+.page-header_contain {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.page-header_contain h1 {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 4.3vw;
+    font-weight: 400;
+    letter-spacing: 4.7px;
+    padding-top: 70px;
+}
+
+.page-header_contain .page-header_desc {
+    font-size: 1.19vw;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+
+}
+
+.page-header_btn-down {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 11px;
+    cursor: pointer;
+    letter-spacing: 3.7px;
+    margin-bottom: 70px;
+}
+
+/*-------------main---------------*/
+.wrap {
+    max-width: 878px;
+    margin: 0 auto;
+}
+
+.navigation_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav_list {
+    display: flex;
+}
+
+.main-nav_list a {
+    text-decoration: none;
+    color: #48555B;
+    padding: 0 15px;
+}
+
+.story h2 {
+    text-align: center;
+
+}
+
+.story_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.story_container .story_info {
+    font-size: 20px;
+    line-height: 1.35;
+    font-weight: 700;
+    letter-spacing: 0.1875px;
+}
+
+.story_desc {
+    font-size: 13px;
+    line-height: 1.7;
+    letter-spacing: 0.1875px;
+}
+
+.story_info-blue {
+    color: #00A4E5;
+}
+
+.capabilities_container {
+    display: flex;
+}
+
+.capabilities_container h2 {
+    white-space: nowrap;
+}
+
+.capabilities_desc {
+    padding: 0 30px 0 150px;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+
+.capabilities_feature ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.btn {
+    white-space: nowrap;
+    border: none;
+    background-color: #00A4E5;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    padding: 11px 29px;
+}
+
+.promo-footer_bg {
+    background-image: url("../img/-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 499px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.main-footer_wrap{*/
+/*    display: grid;*/
+/*    grid-template-rows: repeat(3, 1fr);*/
+/*}*/
+.main-footer_sign {
+    display: flex;
+    background-color: #171819;
+    justify-content: center;
+
+}
+
+.main-footer_sign h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.36;
+    letter-spacing: 0.8px;
+}
+.main-footer_info{
+    color: #FFFFFF;
+}
+.main-footer_desc{
+    font-size: 11px;
+    line-height: 1.7;
+    letter-spacing: 0.85px;
+}
+.main-footer_links {
+    background: #141A20;
+    display: flex;
+}
+.main-footer_container {
+    display: flex;
+}
+.links_item{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 2.27px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.social_list{
+   display: flex;
+}
+.social_item{
+    padding: 0 10px;
+}
+.social_list a{
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #FFFFFF;
+}
+.main-footer_copyright{
+    text-align: center;
+    background: #171819;
+
+}
